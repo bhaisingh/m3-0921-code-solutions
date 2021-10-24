@@ -1,0 +1,35 @@
+
+.top-container {
+  display: flex;
+}
+
+.menu-symbol {
+  width: 30%;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: fixed;
+  background-color: white;
+  width: 30%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.background-image {
+  width: 70%;
+}
+
+.unord-list {
+  list-style-type: none;
+}
