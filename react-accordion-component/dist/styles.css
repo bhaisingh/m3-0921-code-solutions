@@ -1,0 +1,28 @@
+.acordion-item {
+  border: 2px solid black;
+  color: black;
+  background-color: lightgray;
+  font-family: sans-serif;
+  width: 350px;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+
+.acordion-description {
+  display: none;
+  border: 2px solid black;
+  background: white;
+  color: black;
+  font-family: sans-serif;
+  width: 350px;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+
+.listcontainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
