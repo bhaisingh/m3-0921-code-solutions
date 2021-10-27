@@ -43,7 +43,7 @@ class Carousel extends React.Component {
   }
 
   tick() {
-    if (this.state.imageId === this.props.pokeList.length - 1) {
+    if (this.state.imageId >= this.props.pokeList.length - 1) {
       this.setState({ imageId: 0 });
     } else {
       this.setState({ imageId: parseInt(this.state.imageId) + 1 });
@@ -52,7 +52,6 @@ class Carousel extends React.Component {
 
   render() {
     const prop = this.props.pokeList;
-
     return (
         <div className="carousal-container">
             <div className="carousel">
