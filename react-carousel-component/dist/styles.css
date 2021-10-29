@@ -1,0 +1,23 @@
+.carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.left-arrow,
+.right-arrow {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dots {
+  padding: 10px;
+}
